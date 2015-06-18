@@ -1,0 +1,26 @@
+{
+  "name": "fis-parser-babel",
+  "version": "1.0.0",
+  "description": "es6 parser for fis",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^5.5.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiangshouding/fis-parser-babel.git"
+  },
+  "keywords": [
+    "fis"
+  ],
+  "author": "fansekey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiangshouding/fis-parser-babel/issues"
+  },
+  "homepage": "https://github.com/xiangshouding/fis-parser-babel#readme"
+}

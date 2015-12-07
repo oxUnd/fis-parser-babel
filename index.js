@@ -9,5 +9,8 @@ module.exports = function (content, file, opts) {
   if (!file.isES6) return content;
   opts.moduleId = file.getId();
   var result = babel.transform(content, opts);
+  if(file.notStrict){
+    return result.code.replace(/(['"])use strict\1;/g,'');
+  }
   return result.code;
 };

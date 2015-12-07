@@ -6,7 +6,7 @@ es6 parser for fis
 ### INSTALL
 
 ```bash
-npm install -g xiangshouding/fis-parser-babel
+npm install -g cuidingfeng/fis-parser-babel
 ```
 
 ### USE
@@ -16,7 +16,8 @@ npm install -g xiangshouding/fis-parser-babel
 	
 	```js
 	fis.match('/es6/**.js', {
-		parser: fis.plugin('babel')
+		parser: fis.plugin('babel'),
+		notStrict: true //是否不使用严格模式，默认为false，使用严格模式。
 	});
 	```
 	
@@ -31,6 +32,7 @@ npm install -g xiangshouding/fis-parser-babel
 	fis.config.set('roadmap.path', [
 		{
 			reg: '/es6/**.js',
+			notStrict: true, //是否不使用严格模式，默认为false，使用严格模式。
 			isES6: true
 		},
 		{

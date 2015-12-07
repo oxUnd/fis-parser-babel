@@ -12,15 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xiangshouding/fis-parser-babel.git"
+    "url": "git+https://github.com/cuidingfeng/fis-parser-babel.git"
   },
   "keywords": [
-    "fis"
+    "fis",
+    "es6"
   ],
   "author": "fansekey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xiangshouding/fis-parser-babel/issues"
+    "url": "https://github.com/cuidingfeng/fis-parser-babel/issues"
   },
-  "homepage": "https://github.com/xiangshouding/fis-parser-babel#readme"
+  "homepage": "https://github.com/cuidingfeng/fis-parser-babel#readme"
 }
